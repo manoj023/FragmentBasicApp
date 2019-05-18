@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="111dp"
+        android:layout_height="72dp"
+        android:checked="false"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="111dp"
+        android:layout_height="74dp"
+        android:checked="true"
+        android:text="ToggleButton" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="106dp"
+        android:layout_height="76dp"
+        android:text="Button" />
+</LinearLayout>

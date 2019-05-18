@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logout"
+        android:title="logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/newfragment"
+        android:orderInCategory="100"
+        android:title="newfragment"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/toggle"
+        android:orderInCategory="100"
+        android:title="toggle"
+        app:showAsAction="never"
+
+        />
+
+</menu>
